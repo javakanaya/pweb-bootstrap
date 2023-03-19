@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #eb5e28;
+    --primary-dark: #e94301;
+    --black: #000000;
+    --gray-1: #403d39;
+    --gray-2: #ccc5b9;
+    --body: #fffcf2;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(249,180,143,1) 89%, rgba(255,134,69,1) 100%);
+}
+
+
+.navbar {
+    padding: 32px 0;
+}
+
+.nav-link {
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+.nav-link:hover{
+    color: var(--black);
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: var(--black);
+}
+
+section.hero .text h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--black);
+}
+
+.button {
+    padding-top: 32px;
+}
+
+.button .btn {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24pxs;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    padding: 12px 20px;
+    border: 1px solid var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border: 1px solid var(--gray-2);
+}
